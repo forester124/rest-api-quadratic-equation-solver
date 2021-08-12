@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Equations</title>
+    <meta name="description" content="Obsługa obliczania równań kwadratowych"/>
+    <meta name="keywords" content="api, rest"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <link rel="stylesheet" href="styl.css" type="text/css"/>
+    <script type="text/javascript" src="handler.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <h3>Rówanie kwadratowe</h3>
+  <form class="dane" name="dane">
+    <input type="number" id="wsp_a" name="wa" placeholder="a">x<sup>2</sup>+
+    <input type="number" id="wsp_b" name="wb" placeholder="b">x+
+    <input type="number" id="wsp_c" name="wc" placeholder="c">=0<br/>
+    <div id="przycisk">
+      <input type="button" id="licz" value="Oblicz" onclick="oblicz()">
+    </div>
+  </form>
+
+  <div class="wynik"></div>
+
+  <div id="historia">
+
+  </div>
+    <input type="button" id="czysc" value="Wyczyść" onclick="clean()">
+
+
+
+</div>
+
+</body>
+</html>

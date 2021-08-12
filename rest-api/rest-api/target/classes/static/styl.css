@@ -1,0 +1,30 @@
+.container {
+    margin: 100px auto auto;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+#wsp_a, #wsp_b, #wsp_c {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+#historia {
+    margin: auto;
+    background-color: lightgray;
+    font-size: 14px;
+}
+
+input[type=number]:focus {
+    background-color: lightblue;
+}
+
+input[type=button]:hover {
+    background-color: lightyellow;
+}
+
+input[type=button] {
+    border-radius: 8px;
+}
